@@ -1,0 +1,145 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  padding-top: 0;
+  width: 100%;
+  padding: 0px;
+}
+
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+/* Style the header */
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+  background-color: grey;
+}
+
+/* Page content */
+.content{
+  padding: 16px;
+  color: black;
+}
+.content h2 {
+  background-color: grey;
+}
+
+/* The sticky class is added to  the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + content {
+  padding-top: 102px;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+
+p {
+	color: black;
+}
+
+.a href {
+	float: left;
+	display: inline;
+}
+
+/* Navbar Links */
+
+head {
+	background-color: grey;
+	padding: 30px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+  position: relative;
+	background-color: grey;
+  font-size: 15px;
+}ss
+
+article{
+  text-align: center;
+  font-size: 100%;
+  color: black;
+  background-color: grey;
+}
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: #d4d4d4;
+  }ss
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #171717;
+   color: #d4d4d4;
+   text-align: center;
+}
+body{
+	margin: 0;
+	font-size: 28px;
+  background: linear-gradient(to bottom, #B20000, #BC0000 100%)
+}
+
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5); 
+}
+
+page[size="A3"] {
+  width: 33cm;
+  height: 42cm;
+}
+
+page[size="A3"][layout="potrait"] {
+  width: 42cm;
+  height: 29.7cm;
+}
+
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
